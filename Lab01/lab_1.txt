@@ -1,0 +1,20 @@
+B)
+	1. GPS problem solver is implemented as a function
+	2. Goal states and initial states are lists of strings and operators are 
+           dictionaries.
+	3. The mechanism is recursive because of the functions written in the file:
+	   achieve_all(), achieve(), apply_operator(), achieve_all(). It implements its
+	   recursion by running achieve_all() which calls achieve() and then it calls
+	   apply_operator which calls achieve_all()
+D)
+	1. Monkey and Banana Problem. Code doesn't fully implement the puzzle, its missing chair and stick as tools.
+	2. The GPS can solve the problem by meeting the precondition that the monkey has in the room. The GPS looks for
+	    the solution to know what it wants to do. The final goal of the monkey and banana problem is for the monkey to
+	    eat the banana. The GPS can make up as many steps or solutions for the monkey to ea the banana. If the
+	    condition aren't met, than the GPS will start from the beginning with a different method to reach the final goal.
+	    The GPS decides whats the best course of action.
+	3. Code is artificially intelligent. The precondition states to perform the action of getting the banana
+	   by using the tools inside the room. Tools: chair and stick. It is thinking logically for an alternate solution
+	   to eat the banana.
+	4. Yes, the monkey thought of making a decision(logically) based on what was in the room.
+	   The monkey thought of getting the banana and by using the chair and stick he decided to get the banana.
