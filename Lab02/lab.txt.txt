@@ -1,0 +1,29 @@
+2.1
+1) Both local search algorithms(hill climbing and simulated annealing) solve the problem. Both problems get the correct answers.
+2) Both algorithms work at the same speed
+3) It doesn't make a difference. Maximum value will be the same due to the equation written. Initial value will change by running the code many times.
+4) Changing the delta step value causes the program to change the interval for hill climbing. Changing the delta step value also changes the speed tosolve the equation. Delta doesn't affect simulated annealing.
+5) Its purpose is to determine the parameters the temperture is decreased.
+
+2.2
+1) Both algorithms show different results. Adding sine, the maximum increases becoming psoritive or negative.
+2) Both algorithms determine both the x and y values of the solution. Its close to the initial value
+3) Yes, it is affected by determining the area of the higher maximum. A higher delta makes the algorithm search for a wider area with its iteration and finds the global maximum.
+   Decreasing the step size increases the time to execute both algorithms. Increasing the step size decreases the time to execute both algorithms.
+4) For the maximum and minimum values there can be many answers depending on the how we change the parameter for both the search algorithms. Modifying the step size causes both algorithms to return positive and negative values.
+   Depending on how many times I run the code, the x-value returned bu the hill-climbing algorithms is close to the initial value. The x-value returned bu the simualted annealing is different from the initial value.
+
+
+2.3
+1) Both algorithms run faster. Simulated Annealing seems to be faster than Hill-climbing For the algorithms to implement restarts I added a while loop for both algorithms and run 5 iterations. Inside the while loop
+   I added if statements to record the highest maximum value and return the x-value.
+2) Hill climbing algorithm: values are between 15 - 28.
+   Simulated annealing: values are between 18 - 32
+3) Simulated Annealing gets hogh values and works faster than Hill-climbing. I believe that the exp_schedule does the sudden change in speed and in values. The method allows the Simulated Annealing algorithm to search further than hill-climbing.
+
+
+2.4
+1) Simulated Annealing
+2) More than 100 solutions maybe, only if the memory doesn't interrupt the implementation but I don't think memory will affect it 
+3) I would add a code tht can store the values-solutions and have it determine the right or acceptable step values and solutions. With the restart random code
+   it will run the algorithms that will return different values and if we implement the beam search then I believe it should choose the right path and find the value it decides to choose.
