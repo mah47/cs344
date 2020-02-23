@@ -1,0 +1,37 @@
+Exercise 2.1
+1) Using easy puzzle:
+	Depth first graph: fails to get solution due to time. 
+	AC3: It works, solves the puzzle very fast
+	Backtracking_search: fails and takes a long time to solve
+	Min conflicts:Fails
+   Using Hard Puzzle:
+	Depth first graph: Fails
+	AC3: Fails
+	Backtracking_search: fails and takes so long to solve. Searches new routes and test new solutions
+	Min Conflicts: fails
+   Using Hardest Puzzle:
+	Depth first graph: fails, takes too long
+	AC3: fails
+	Backtracking_search: fails, takes too long to solve
+	Min Conflicts: fails
+
+2) 
+   i)Adding select_unassigned_variable and setting it to mrv caused the program to solve the puzzle for a longer time.
+   Had to stop the program -_-
+   ii) Adding inference and seeting to forward checking made a huge change. It solve the easy and hard puzzle very fast. Without the parameter it wouln't have solve the puzzle.
+   With the mrv, it gives an ideal time to solve the puzzle. With forward_checking it gives a better time.
+   Using forward_checking works best.
+
+Exercise 2.2
+1) Depth first graph: fait at n= 4
+   AC3: fail at n =4
+   Backtracking search:works at n = 21. Going above 21 won't find a solution
+   min_conflicts: works up to n =3000 (takes about 20 seconds) at n = 1000 it solves it in 1 second. Very fast.
+2) Both mrv and forward checking because it solves the algorithm faster, it reduces search space.
+3) Greater steps as n gets larger but not linear. It can also be less than n.
+
+Exercise 2.3
+1) CPS implements the search class. Moves changes in the domain, results are recorded from the variable assigned in search, and goal tests
+   check search constraints. Its states and actions retain the same function.
+2) In traditional, it checks for the best solutions that leads closer to the goal. It is associated in numerical values.
+   Constraint based problem, checks for the best move that satisfies the algorithm or its group of contraints where it leads to the end goal.
