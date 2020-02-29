@@ -1,0 +1,23 @@
+Exercise 4.3
+
+a.
+	i.P(User) = 0.089	
+	
+	ii.P(test | user) = .99
+
+	iii.P(¬test | user) = 1 - P(test | user) = 0.01
+
+	iv.P(test | ¬user) = 1 - 0.98 = 0.02
+
+	v.P(User | test) = .99 * 0.089 / .10633 = 0.82865
+
+b.
+	P(Test | Cancer) = 0.8
+
+	P(Test | -Cancer) = 0.096
+
+	P(Test) = P(Test | Cancer) + P(Test | -Cancer) = 0.8 * 0.01 + 0.096 * 0.99 = 0.10304
+
+	P(Cancer | Test) = P(Test | Cancer) * P(Cancer) / P(Test) = 0.8 * -0.01 / 0.10304 = 0.0776
+
+	P(-Cancer | Test) = P(Test | -Cancer) * P(-Cancer) / P(Test) = 0.096 * 0.99 / 0.10304 = 0.9224
