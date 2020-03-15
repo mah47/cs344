@@ -1,3 +1,10 @@
+'''
+Marcos Hernandez (mah47)
+March 14, 2020
+CS344
+'''
+
+
 import numpy as np
 from keras.datasets import mnist
 from tensorflow.python.keras.datasets import boston_housing
