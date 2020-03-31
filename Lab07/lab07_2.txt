@@ -1,0 +1,16 @@
+Marcos Hernandez
+CS344
+Lab 7 
+
+Exercise 7.2
+
+	a. Categorical data - data composed of textual. Numerical data - number data consisting of integer or float
+	   Numerical data such as zip code can also be treated as categorical data since it isn't data for numerical computation.
+	b. 1st task:
+		train_model(learning_rate=0.00002, steeps=400, batch_size=4)
+			Fianl RMSE (on training data):171.23
+	   2nd task:
+		train_model( learning_rate=0.00002, steps=800, batch_size=6, input_feature="population")
+			Final RMSE (on training data): 177.97
+	c. Hyper parameters are tuning options for users in ML, and in the exercise, learning_rate, batch_size, input_feature, and hyper parameters are hyper parameters.
+	   There is no standard tuning algorithm because it is not a value optimized since the variable is set and controlled by users.

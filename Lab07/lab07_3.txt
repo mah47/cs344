@@ -1,0 +1,22 @@
+Marcos Hernandez
+CS344
+Lab 7 
+
+Exercise 7.3
+
+	a. Task 1:
+		california_housing_dataframe["rooms_per_person"] = california_housing_dataframe["total_rooms"] / california_housing_dataframe["population"]
+
+		calibration_data = train_model( learning_rate=0.00005, steps=500, batch_size=5, input_feature="rooms_per_person")
+
+	   Task 2:
+		plt.subplot(1, 2, 1)
+		plt.scatter(calibration_data["predictions"], calibration_data["targets"])
+
+	   Task 3:
+		clipped_feature = california_housing_dataframe["rooms_per_person"].apply(lambda x: min(x, 4))
+		clipped_feature.hist()
+
+	b. Its purpose is to study the relationship of two other features and predict the relationship value through the results.
+
+	c. Outliers represent points that are outside the distribution range of common data which makes the data biased due to skewed points.

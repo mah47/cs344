@@ -1,0 +1,10 @@
+Marcos Hernandez
+CS344
+Lab 7 
+
+Exercise 7.1
+	a. cities["exe1"] = (cities["Are square miles"].apply(lambda val: val > 50) & cities["City name"].apply(lambda val: val.startswith("San")))cities
+	b. cities.reindex([6, 0, 5, 1, 4, 2, 3])
+	   Pandas is a column oriented data analysis API which analyzes and visualizes data through a relational data table called DataFrame
+	   Numpy is used to handle vector data and matrices to process data with mutidimensional structures
+	c. It would be useful to reorder/shuffle a Pandas DataFrame for the consistency of the reults. When choosing a data from head and tail via reordering/shuffling, it can give a stable result of arbitrary data.
